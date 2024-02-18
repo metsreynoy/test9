@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container bg-info text-dark" id="con">
+ <!---<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiTgJ4P7UP2UaVMA_fahM91Vr_WbNvInpXjQ&usqp=CAU" alt="">--->
+         <h1 class="text-info">EAT  FRESH</h1>
+     </div>
+
+   <!---MENU------------>
+  <div class="container1">
+   
+   <div class="menu-btn">
+      
+            <ul>
+               <li><a href="">Home</a></li>
+               <li ><a onclick="delas()" href="#row-btn">Deals</a></li>
+               <li><a onclick="veget()" href="#row1-btn">Vegetables</a></li>
+               <li><a onclick="Fruits()" href="#row2-btn" >Fruits</a></li>
+               <li><a onclick="Meat()" href="#row3-btn">Meat</a></li>
+               <li><a onclick="cart()" href="#row4-btn">Cart</a></li>
+            </ul>
+
+         
+      <!-------------Search--------------------------->
+        
+      <input type="text" placeholder="Search" class="Search">
+         
+      </div>    
+   </div>
+
+
+   <!-----section body------------------------->
+
+        <section class="container" id="container2">
+         <div class="row1 m-5 " id="row1">
+            <div id="img">
+               <img src="https://th.bing.com/th/id/OIP.SM7Sg8ucPecOEsryknJn4gHaEO?rs=1&pid=ImgDetMain" alt="" >
+               <h3>Vegetables</h3>
+               
+            </div> 
+            
+            <div   id="img">
+               <img src="https://th.bing.com/th/id/R.f49707c3b9909af3baa63db49c85d49f?rik=O0kWpBijYayFZg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ffruit-transparent%2ffruit-transparent-22.png&ehk=5VjyBV9hP3pEKatFpTaJ%2bg9%2fBZ4Ds1nTs9a8Q1fK3aE%3d&risl=&pid=ImgRaw&r=0" alt="" >
+               <h3>Fruits</h3>
+               
+            </div> 
+
+            <div  id="img">
+               <img src="https://img.freepik.com/free-photo/raw-chicken-meat_1203-6759.jpg?size=626&ext=jpg" alt="" >
+               <h3>Meat & Sea Food</h3>
+              <!-------<h3>Organic Apple</h3>
+               <p>Price:</p>
+               <p>Qty:
+                  <select name="" id="">
+                     <option value="">250grms</option>
+                     <option value="">250grms</option>
+                     <option value="">250grms</option>
+                  </select>
+               </p>--->
+            </div> 
+
+            <div id="img">
+               <img src="https://th.bing.com/th/id/OIP._0WAC8KQqv3GsZr_xW-xBAHaEK?rs=1&pid=ImgDetMain" alt="" >
+               <h3>Deals</h3>
+               </p>
+            </div> 
+          </div>
+        </section>
+
+        <!------DEALS----------------------->
+            <div class="container container2 ">
+                     <h1><img src="" alt="">DEALS</h1>
+                     <div class="row-btn" id="row-btn">
+                        <div  id="Deals">
+                            <h3>Save 20% on min purchase of $149 on 
+                              Vegetables
+                            </h3>
+                            <button>Add Coupon</button>
+                        </div>
+
+                        <div id="Deals">
+                           <h3>Save 10% on min purchase of $179 on 
+                           Fruits
+                            </h3>
+                            <button>Add Coupon</button>
+                        </div>
+
+                        <div  id="Deals">
+                           <h3>Save 15% on min purchase of $199 on 
+                           Meat/Sea Food
+                            </h3>
+                            <button>Add Coupon</button>
+                        </div>
+                     </div>
+              </div>
+
+
+ <!-------------Vegettable---------------->
+              <div class="container container2 container3" >
+                    <h1>Vegetables</h1>
+                    <div class="row1-btn" id="row1-btn">
+                           <div class="vegetable" id="vegetable">
+                              <img src="https://www.pngall.com/wp-content/uploads/9/Okra.png" alt="">
+                              <h3>Organic Okra</h3>
+                              <p>Price:$2.99/250grams</p>
+                              <p>Qty:
+                                <select name="" id="" >
+                                 <option value="">250grms</option>
+                                 <option value="">500grms</option>
+                                 <option value="">750grms</option>
+                                <option value="">1000grms</option>
+                                </select>
+                              </p>
+                              <button>Buy Now</button>
+                      </div>
+
+                           <div class="vegetable"  id="vegetable">
+                              <img src="https://purepng.com/public/uploads/large/purepng.com-green-chili-peppervegetableschilli-pepper-capsicum-green-chili-941524705381s3ium.png" alt="">
+                              <h3>Organic Green Pepper</h3>
+                              <p>Price:$3.99/250grams</p>
+                              <p>Qty:
+                                <select name="" id="">
+                                 <option value="">250grms</option>
+                                 <option value="">500grms</option>
+                                 <option value="">750grms</option>
+                                <option value="">1000grms</option>
+                                </select>
+                              </p>
+                              <button>Buy Now</button>
+                           </div>
+
+                           <div class="vegetable"  id="vegetable">
+                              <img src="https://uploads-ssl.webflow.com/5d1fa45f055c61b289a83c37/5d2390d740ebd15d95332021_OV-Tomato.png" alt="">
+                              <h3>Orgainc tomatoes </h3>
+                              <p>Price:1.49$/250grams</p>
+                              <p>Qty:
+                                <select name="" id="">
+                                 <option value="">250grms</option>
+                                 <option value="">500grms</option>
+                                 <option value="">750grms</option>
+                                <option value="">1000grms</option>
+                                </select>
+                              </p>
+                              <button>Buy Now</button>
+                           </div>
+
+                           <div class="vegetable" id="vegetable">
+                              <img src="https://th.bing.com/th/id/R.5deb4d725a5b53b82ef907102f6929ed?rik=Y5MXHaIYd9epwQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fonion-transparent-background%2fonion-transparent-background-8.png&ehk=%2b9hfoJ8dRauUSvbyzi0zt9wAUob9%2fRMpAPx%2b4dmOvpc%3d&risl=&pid=ImgRaw&r=0" alt="">
+                              <h3>Yellow Onion</h3>
+                              <p>Price:$2.99/250grams</p>
+                              <p>Qty:
+                                <select name="" id="">
+                                 <option value="">250grms</option>
+                                 <option value="">500grms</option>
+                                 <option value="">750grms</option>
+                                <option value="">1000grms</option>
+                                </select>
+                              </p>
+                              <button>Buy Now</button>
+                           </div>
+
+                           <div class="vegetable" id="vegetable">
+                              <img src="https://th.bing.com/th/id/R.49c7150406fc8ca8c5a78504a17f8984?rik=YwFwGtRRM0jVOA&riu=http%3a%2f%2fwww.lakesideorganic.com%2fwp-content%2fuploads%2f2015%2f06%2fspinach.png&ehk=cU%2bMcuc4PFn%2bEMjLfHa8lr7rCSWMsHp5NsbUV2rgmlI%3d&risl=&pid=ImgRaw&r=0" alt="">
+                              <h3>Organic Spinach</h3>
+                              <p>Price:$3.99/250grams</p>
+                              <p>Qty:
+                                <select name="" id="">
+                                 <option value="">250grms</option>
+                                 <option value="">500grms</option>
+                                 <option value="">750grms</option>
+                                <option value="">1000grms</option>
+                                </select>
+                              </p>
+                              <button>Buy Now</button>
+                           </div>
+
+                           <div class="vegetable" id="vegetable">
+                              <img src="https://th.bing.com/th/id/R.9fb293c479b61d45de2d6837920ff146?rik=jBuGq%2bd%2bJKCGgw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fcarrot-transparent%2fcarrot-transparent-12.png&ehk=mml6VIG%2bKBlpp6f6cR%2bk%2fb4igyQ41AwV2ENzIDzIk6Y%3d&risl=&pid=ImgRaw&r=0" alt="">
+                              <h3>Orgainc carrots </h3>
+                              <p>Price:1.49$/250grams</p>
+                              <p>Qty:
+                                <select name="" id="">
+                                 <option value="">250grms</option>
+                                 <option value="">500grms</option>
+                                 <option value="">750grms</option>
+                                <option value="">1000grms</option>
+                                </select>
+                              </p>
+                              <button>Buy Now</button>
+                           </div>
+                    </div>
+              </div>
+
+
+              <!----------------Fruit---------------->
+              <div class="container container2 container3" >
+               <h1>Fruit</h1>
+               <div class="row1-btn" id="row2-btn">
+                      <div class="vegetable" id="vegetable">
+                         <img src="https://th.bing.com/th/id/R.5e9ae01d209f3e01c1a5f40105f016ab?rik=OyV1M6QVl3swEA&pid=ImgRaw&r=0" alt="">
+                         <h3>Organic Apple</h3>
+                         <p>Price:$2.99/250grams</p>
+                         <p>Qty:
+                           <select name="" id="" >
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable"  id="vegetable">
+                         <img src="https://th.bing.com/th/id/R.d6fa2a13d98f251e3919dc8f82b625b8?rik=Vr3BSUQ31ZXRCQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fkiwi-transparent%2fkiwi-transparent-16.png&ehk=yqfi%2fmsGR1vQeODT7jERelO27mShAWmTmPGbaPs2zbE%3d&risl=&pid=ImgRaw&r=0" alt="">
+                         <h3>Organic Kiwi</h3>
+                         <p>Price:$3.99/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable"  id="vegetable">
+                         <img src="https://www.seekpng.com/png/full/401-4019490_dragon-fruit-png.png" alt="">
+                         <h3>Orgainc Dragon Fruit </h3>
+                         <p>Price:1.49$/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable" id="vegetable">
+                         <img src="https://th.bing.com/th/id/R.4932266d78ccdaf915912f40a56b0631?rik=c58QGAcQEukjeg&pid=ImgRaw&r=0" alt="">
+                         <h3>Strawberries</h3>
+                         <p>Price:$2.99/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable" id="vegetable">
+                         <img src="https://th.bing.com/th/id/R.076f59004caba3e65118886ad751dd3b?rik=OH%2fY0qPuAaMCAQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fwatermelon-hd-png-watermelon-png-image-1400.png&ehk=g1rTJirID8vPqrZt6HfxHnPZjR3WQ%2bCVZFX%2fc1nvsMc%3d&risl=&pid=ImgRaw&r=0" alt="">
+                         <h3>Watermelon</h3>
+                         <p>Price:$3.99/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable" id="vegetable">
+                         <img src="https://th.bing.com/th/id/OIP.qq0UPvcQku-iRpIKOc_ShQHaEx?rs=1&pid=ImgDetMain" alt="">
+                         <h3>Orgainc Banana </h3>
+                         <p>Price:1.49$/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+               </div>
+         </div>
+
+
+            <!-------------Meat---------------->
+            <div class="container container2 container3" >
+               <h1>Meat & Sea Food</h1>
+               <div class="row1-btn" id="row3-btn">
+                      <div class="vegetable" id="vegetable">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLU7EJozpAHmthF0PT0EHmpIkvxUopmUlb_HQiUDQflJewhhNvlDy1tMZoY6gZ1nCKuA&usqp=CAU" alt="">
+                         <h3>Whole chicken</h3>
+                         <p>Price:$2.99/250grams</p>
+                         <p>Qty:
+                           <select name="" id="" >
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable"  id="vegetable">
+                         <img src="https://th.bing.com/th/id/OIP.8AOM-KB5NWo2tNDO2YicIAHaFj?rs=1&pid=ImgDetMain" alt="">
+                         <h3>Fresh Lamb</h3>
+                         <p>Price:$3.99/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable"  id="vegetable">
+                         <img src="https://m.media-amazon.com/images/I/51M-zNh7IgL._AC_UF1000,1000_QL80_.jpg" alt="">
+                         <h3>Peeled Prawns</h3>
+                         <p>Price:1.49$/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable" id="vegetable">
+                         <img src="https://th.bing.com/th/id/OIP.b5Jmzfr9Y4YwNGVBj2fqswHaFd?rs=1&pid=ImgDetMain" alt="">
+                         <h3>Live Fish</h3>
+                         <p>Price:$2.99/250grams</p>
+                         <p>Qty:
+                           <select name="" id="">
+                              <option value="">250grms</option>
+                              <option value="">500grms</option>
+                              <option value="">750grms</option>
+                             <option value="">1000grms</option>
+                           </select>
+                         </p>
+                         <button>Buy Now</button>
+                      </div>
+
+                      <div class="vegetable"  id="vegetable">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <h3>Pork</h3>
+                        <p>Price:1.49$/250grams</p>
+                        <p>Qty:
+                          <select name="" id="">
+                             <option value="">250grms</option>
+                             <option value="">500grms</option>
+                             <option value="">750grms</option>
+                            <option value="">1000grms</option>
+                          </select>
+                        </p>
+                        <button>Buy Now</button>
+                     </div>
+
+                     <div class="vegetable" id="vegetable">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqkImnQvEa3EQoYEWzLsXT2BaTx9pcJaPmjw&usqp=CAU" alt="">
+                        <h3></h3>
+                        <p>Price:$2.99/250grams</p>
+                        <p>Qty:
+                          <select name="" id="">
+                             <option value="">250grms</option>
+                             <option value="">500grms</option>
+                             <option value="">750grms</option>
+                            <option value="">1000grms</option>
+                          </select>
+                        </p>
+                        <button>Buy Now</button>
+                     </div>
+
+                      
+               </div>
+         </div>
+
+
+         <!-------------footer----------- -->
+        
+           <footer class="container" id="food1">
+               <!----Locations-->
+               <div id="footer1">
+               <div class="location">
+                  <h1>Locations</h1>
+                   <h5>Adress 1</h5>
+                   <h5>Adress 2</h5>
+                   <h5>Adress 3</h5>
+               </div>
+                <!----Careers-->
+                <div class="location">
+                   <h1>Careers</h1>
+                  <h5>Packing Staff</h5>
+                  <h5>Delivery Agents</h5>
+                  <h5>Shelf Filers</h5>
+              </div>
+               <!----Quick Links-->
+               <div class="location">
+                  <h1>Quick Links</h1>
+                  <h5>Contact Us</h5>
+                  <h5>FAQ</h5>
+                  <h5>Help</h5>
+              </div>
+            </div>
+           </footer>
+
+
+
+
+
+
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+     
+     <!-------<div class="container1">
+                 <div class="container-img" >
+                    <div class="menu-img" id="menu1">
+                        <img src="https://images.rawpixel.com/image_png_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvZnJlZXJhbmdlcGV4ZWxzMDEwMTctaW1hZ2Utam9iNjE5XzIta3p3NWJ4ZzUucG5n.png" alt="" >
+                    </div>
+
+                     <div class="menu-img" id="menu2">
+                        <img src="https://images.rawpixel.com/image_png_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczk5LW1uLXN3ZWV0LXBvdGF0by1mYWxhZmVsLWJvd2wtNy5wbmc.png" alt=""=>
+                     </div>
+
+                     <div class="menu-img" id="menu3">
+                        <img src="https://images.rawpixel.com/image_png_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvZnJlYXRfYnJlYWRfZm9vZF9jb29raW5nLTAzLWpvYjYxOV8xLWt6dzVieWR0LnBuZw.png" alt="" >
+                     </div>
+
+                     <div class="menu-img" id="menu4">
+                        <img src="https://images.rawpixel.com/image_png_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczc5LW1vbmlrYS1ncmFia293c2thLWZyZW5jaC10b2FzdC05LTAxXzIucG5n.png" alt="">
+                     </div>
+
+                     <div class="menu-img" id="menu5">
+                        <img src="https://images.rawpixel.com/image_png_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczc5LW1vbmlrYS1ncmFia293c2thLXBhbm5hLWNvdHRhLTMtMDFfMy5wbmc.png" alt="">
+                     </div>
+
+                     <div class="menu-img" id="menu6">
+                        <img src="https://images.rawpixel.com/image_png_350/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL21vdGFybzdfcGhvdG9fb2ZfcGl6emFfdG9wX3ZpZXdfbWluaW1hbF9sb3dfZGV0YWlsX2lzb2xhdGVkX29uX18zNGI2YjI0OC05NGFkLTRhNzctYTkwNC1iZGY3ZTlkZTlmZjlfMS5wbmc.png" alt="" >
+                     </div>
+
+                     <div class="menu-img" id="menu7">
+                          <img src="data:image/jpeg;base64,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" alt="" >
+                     </div>
+
+                     <div class="menu-img" id="menu8">
+                        <img src="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiJlOnFs5uEAxUcUWcHHZwbB9E4ChDVtQV6BAgfEAA&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Ffood-png&usg=AOvVaw2jUP0m0jTLM82UehbHplVI&opi=89978449" alt="" >
+                     </div>
+
+                     <div class="menu-img" id="menu9">
+                        <img src="https://images.rawpixel.com/image_png_350/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczg3LW1uLTI3LTAxLnBuZw.png" alt="">
+                     </div>
+
+                </div>
+
+                     <div class="icon" >
+                            <i class="fa-solid fa-left-long" id="left-side"></i>
+                            <i class="fa-solid fa-right-long" id="right-side"></i>
+            </div>
+           </div>---->
+           
+</body>
+</html>
+<script src="Fresh.js">
+
+</script>
